@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Planeje sua viagem com a Quero Ir Viagens. Oferecemos pacotes completos, passagens aéreas e experiências inesquecíveis para diversos destinos.">
+  <meta name="keywords"
+    content="agência de viagens, pacotes de viagem, passagens aéreas, Quero Ir Viagens, destinos turísticos">
+  <meta name="author" content="Quero Ir Viagens">
+  <title>Agência de Viagens | Quero Ir Viagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Quero Ir Viagens</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#packages">Pacotes</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Planeje sua próxima aventura com a Quero Ir Viagens</h2>
+    <p>Pacotes exclusivos para destinos nacionais e internacionais com os melhores preços.</p>
+    <a href="#contact" class="btn">Solicite um Orçamento</a>
+  </section>
+
+  <section id="about">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma agência especializada em criar experiências de viagem inesquecíveis, oferecendo pacotes personalizados
+      para diversos destinos ao redor do mundo. Nossa missão é tornar cada viagem única, garantindo conforto, segurança e preços acessíveis.</p>
+    <p>Com anos de experiência no setor de turismo, nossa equipe está sempre em busca das melhores ofertas e dos destinos mais encantadores para proporcionar aventuras memoráveis. 
+       Quer você esteja planejando uma viagem romântica, uma aventura radical ou férias em família, temos opções perfeitas para atender às suas necessidades.</p>
+    <p>Trabalhamos com as principais companhias aéreas e hotéis do mundo para garantir que sua viagem seja tranquila e inesquecível. Conosco, viajar se torna muito mais do que apenas 
+       um deslocamento; é uma experiência transformadora.</p>
+  </section>
+
+  <section id="packages">
+    <h2>Nossos Pacotes</h2>
+    <div class="packages-list">
+      <div class="package">
+        <img src="./images/a.png" alt="Pacote para o Caribe">
+        <p>Pacote completo para o Caribe: voo, hotel e passeios.</p>
+      </div>
+      <div class="package">
+        <img src="./images/a.png" alt="Pacote para a Europa">
+        <p>Explore a Europa com nossos pacotes personalizados.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="text">
+      <h2>Contato</h2>
+      <p>Entre em contato e fale com um de nossos consultores para encontrar a melhor opção para sua viagem. Estamos disponíveis para esclarecer dúvidas, 
+         fornecer informações detalhadas sobre pacotes e ajudá-lo a planejar a sua viagem dos sonhos.</p>
+      <p>Você pode nos contatar através do formulário ou pelo WhatsApp e e-mail. Nossa equipe está pronta para oferecer suporte rápido e eficiente.</p>
+      <p>📞 Telefone: (XX) XXXX-XXXX</p>
+      <p>✉️ E-mail: contato@queroirviagens.com</p>
+    </div>
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSdo97DWUNN6xJpdcA1J_OAf1ZWkCs99b_8qOI0oo_zLmhTKHA/viewform?embedded=true"
+      width="640" height="959" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Quero Ir Viagens. Todos os direitos reservados.</p>
+  </footer>
+</body>
+<script>
+  window.addEventListener('scroll', function () {
+    const header = document.querySelector('header');
+    if (window.scrollY > 230) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+</script>
+
+</html>
