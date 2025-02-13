@@ -1,0 +1,22 @@
+
+@media (max-width: 768px) {
+  #contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #contact .text, #contact iframe {
+    width: 100%;
+    max-width: 100%;
+  }
+   
+  #hero {
+    background-position-y: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hero{
+    background-position-y: -250px;
+  }
+}

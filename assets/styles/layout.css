@@ -1,0 +1,75 @@
+body {
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  gap: 8px;
+}
+
+#hero {
+  background: url('../images/hero.png') no-repeat;
+  background-size: cover;
+  background-position-y: -400px;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+#about,
+#packages,
+#contact,
+#testimonials,
+#faq {
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#faq {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#about {
+  margin: 32px auto;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+#services {
+  padding: 60px 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+footer {
+  background-color: #002040;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#faq {
+  padding: 40px 20px;
+  text-align: center;
+}
