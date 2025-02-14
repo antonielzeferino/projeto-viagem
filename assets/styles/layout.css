@@ -1,5 +1,8 @@
 body {
   background-color: #f5f5f5;
+  width: 100%;
+  height: auto;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -16,7 +19,6 @@ header {
   flex-wrap: wrap;
   z-index: 1000;
   transition: background-color 0.3s ease;
-  gap: 8px;
 }
 
 #hero {
@@ -31,11 +33,11 @@ header {
   align-items: center;
   justify-content: center;
   gap: 32px;
+  padding: 40px 20px;
 }
 
 #about,
 #packages,
-#contact,
 #testimonials,
 #faq {
   padding: 40px 20px;
@@ -66,7 +68,7 @@ footer {
   background-color: #002040;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 40px 20px;
 }
 
 #faq {

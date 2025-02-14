@@ -2,6 +2,17 @@
   background-color: #002040;
 }
 
+header .wrapper {
+  text-align: center;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 40px;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -40,18 +51,6 @@ nav ul li a {
   hyphens: auto;
 }
 
-#contact .text {
-  width: 50%;
-  max-width: 500px;
-  text-align: start;
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-#contact .text h2 {
-  font-size: 22px;
-}
-
 .packages-list {
   display: flex;
   flex-wrap: wrap;
@@ -75,8 +74,6 @@ nav ul li a {
   border-radius: 10px;
   object-fit: cover;
 }
-
-
 
 #services h2 {
   font-size: 32px;
@@ -180,28 +177,58 @@ nav ul li a {
   transform: rotate(180deg);
 }
 
-#contact h2{
-  margin: 16px 0;
+footer {
+  background: linear-gradient(45deg, #171724, #2a2a4b, #041543);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
 }
 
-#contact .contact-list {
+.footer-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  padding: 16px 0;
-  justify-content: center;
-  gap: 32px;
+  gap: 20px;
+}
 
-  & .card {
-    padding: 16px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
-    & p {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      width: 250px;
-    }
+.footer-contact h2 {
+  font-size: 1.5rem;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center ;
+  padding: 16px 0;
+}
+
+.footer-info .card {
+  padding: 16px;
+  border-radius: 10px;
+  background: #021221;
+  width: 280px;
+}
+
+.footer-info .card p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  & a {
+    color: #7a9bff;
   }
+}
+
+.footer-info .card svg {
+  width: 20px;
+  height: 20px;
+  stroke: #ff9900;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
 }
